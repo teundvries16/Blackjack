@@ -1,0 +1,46 @@
+body {
+    background-color: seagreen;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#dealer_cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#player_cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+#hit{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: none;
+    border-radius: 1%;
+}
+#stand{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: none;
+    border-radius: 1%;
+}
+.scores{
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    width: 150px;
+    height: 200px;
+}
+#result{
+    padding-top: 0;
+    margin: 0;
+}
+#button{
+    margin-top: 5rem;
+}
